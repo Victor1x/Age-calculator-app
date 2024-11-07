@@ -8,7 +8,7 @@ O Age Calculator App é uma aplicação simples onde o usuário pode inserir sua
 ## 💻 Tecnologias Utilizadas
 - HTML, CSS e JavaScript
 ## 🚀 Como Usar
-1-Clone o repositório: git clone https://github.com/seu-usuario/age-calculator-app.git
+1-Clone o repositório: git clone https://github.com/Victor1x/Age-calculator-app.git
 2-Abra o arquivo index.html no seu navegador.
 3-Insira sua data de nascimento no campo fornecido.
 4-O aplicativo calculará automaticamente sua idade exata.
@@ -22,7 +22,7 @@ The Age Calculator App is a simple application where the user can input their da
 ## 💻Technologies Used
 - HTML, CSS, and JavaScript
 ## 🚀How to Use
-1-Clone the repository: git clone https://github.com/your-username/age-calculator-app.git
+1-Clone the repository: git clone https://github.com/Victor1x/Age-calculator-app.git
 2-Open the index.html file in your browser.
 3-Enter your date of birth in the provided field.
 4-The app will automatically calculate your exact age.
