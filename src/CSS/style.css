@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
+main {
+  min-height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 86%);
+  padding: 10px;
+}
+.conteiner_card {
+  /* min-width: 100%; */
+  flex: 0 0 570px;
+  min-height: 50vh;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  border-bottom-right-radius: 130px;
+}
+.Card_input_data {
+  min-height: 12vh;
+  display: flex;
+  padding-left: 10px;
+}
+.Data {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 11px; /*esse tamanho de fonte so e aplicado no span*/
+  color: hsl(0, 1%, 44%);
+  padding: 10px 10px 0px;
+}
+.Input {
+  width: 120px;
+  min-height: 6vh;
+  border-radius: 4px;
+  border: 2px solid hsl(0, 0%, 86%);
+  display: flex;
+  align-content: center;
+  padding-left: 10px;
+  font-size: 22px; /*tamanho de fonte que é aplicado dentro do input */
+  outline: none; /*tira a bordar preta pradao quando clicar */
+  transition: all 0.5s;
+  font-weight: 700;
+}
+.Input::placeholder {
+  font-weight: 700;
+  color: hsl(0, 1%, 44%);
+  font-size: 22px;
+}
+.Input:hover {
+  border: 2px solid hsl(259, 100%, 65%);
+  /* box-shadow: 2px 2px 10px hsl(259, 100%, 65%); */
+}
+Input[type="number"]::-webkit-outer-spin-button,
+.Input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.mensagem_erro {
+  color: red;
+}
+.active {
+  border-color: red;
+}
+.div_sapn_data_do_futuro {
+  margin-top: 10px;
+  width: 120px;
+  text-align: center;
+  display: none;
+}
+.img_cat {
+  width: 100%;
+  min-height: 80%;
+  background-image: url(../Assets/img/Captura\ de\ tela\ 2024-08-25\ 094521.png);
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.div_mensagem_erro_450px {
+  display: flex;
+  justify-content: center;
+}
+.mensagem_erro {
+  font-weight: 700;
+  font-size: 11px;
+}
+.div_barra_button {
+  display: flex;
+  align-items: center;
+  padding: 5px 20px 0px 20px;
+}
+.barra_vertical {
+  width: 80%;
+  height: 1px;
+  border: 1px solid hsl(0, 0%, 86%);
+  /* padding: 0px 15px; */
+}
+.barra_vertical_2 {
+  display: none;
+  width: 40%;
+  height: 1px;
+  border: 1px solid hsl(0, 0%, 86%);
+  /* padding: 0px 15px; */
+}
+button {
+  border: none;
+  width: 8vh; /* A altura e a largura são iguais para criar um botão redondo */
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; /* Torna o botão redondo */
+  background-color: hsl(259, 100%, 65%);
+  cursor: pointer;
+}
+button:hover {
+  background-color: black;
+}
+.conteiner_resultados {
+  min-height: 40vh;
+  border-bottom-right-radius: 130px;
+}
+.Idade {
+  font-size: 65px;
+  font-style: italic;
+  font-weight: 800;
+  width: 100%;
+  min-height: 20%;
+  display: flex;
+  gap: 5px;
+  padding-left: 20px;
+}
+.Idade > p {
+  margin: 0;
+}
+.resultados {
+  color: hsl(259, 100%, 65%);
+}
+footer {
+  min-height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.attribution {
+  font-size: 15px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+

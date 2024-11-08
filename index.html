@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/CSS/style.css">
+  <link rel="stylesheet" href="src/CSS/responsividade.css ">
+
+  <title>Age calculator app</title>
+
+</head>
+
+<body>
+  <main>
+    <nav class="conteiner_card">
+      <form class="Card_input_data" id="form">
+        <div class="Data Day">
+          <label for="input_day">DAY</label>
+          <input type="number" id="input_day" class="Input Day" name="DD" placeholder="DD">
+          <span class="mensagem_erro"></span>
+        </div>
+        <div class="Data Month">
+          <label for="Month">MONTH</label>
+          <input type="number" id="input_month" class="Input MONTH" name="MONTH" placeholder="MM">
+          <span class="mensagem_erro"></span>
+        </div>
+        <div class="Data Year">
+
+          <label for="Year">YEAR</label>
+          <input type="number" id="input_year" class="Input YEAR" name="YEAR" placeholder="YYYY">
+          <span class="mensagem_erro"></span>
+        </div>
+        <div class="div_sapn_data_do_futuro">
+          <div class="img_cat">
+          </div>
+          <span class="mensagem_erro"></span>
+        </div>
+      </form>
+      <div class="div_mensagem_erro_450px">
+        <span class="mensagem_erro mensagem_erro_450px"></span>
+      </div>
+      <div class="div_barra_button">
+        <div class="barra_vertical"></div>
+        <button type="submit" form="form"><img src="src/Assets/img/icon-arrow.svg" alt=""></button>
+        <div class="barra_vertical_2"></div>
+      </div>
+      <div class="conteiner_resultados">
+        <div class="Idade Anos">
+          <p class="resultados Anos" id="resultados_anos">--</p>
+          <p>years</p>
+        </div>
+        <div class="Idade Meses">
+          <p class="resultados Meses" id="resultados_meses">--</p>
+          <p>months</p>
+        </div>
+        <div class="Idade Dias">
+          <p class="resultados Dias" id="resultados_dias">--</p>
+          <p>days</p>
+        </div>
+      </div>
+    </nav>
+  </main>
+  <footer>
+    <div class="attribution">
+      <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://www.linkedin.com/in/joão-victor-almeida-697b381a3/" target="_blank">João Victor
+          Almeida</a>.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
