@@ -1,19 +1,28 @@
-@media (max-width: 570px) {
-  .conteiner_card {
-    flex: 1 0 300px;
-    border-bottom-right-radius: 90px;
+@media (max-width: 500px) {
+  .container {
+    padding: 10px;
   }
-}
-@media (max-width: 450px) {
-  .Card_input_data {
-    justify-content: center;
-  }
+
   .Input {
-    width: 80px;
+    width: 100px;
     border-radius: 8px;
   }
   .Input::placeholder {
     font-size: 18px;
+  }
+  .Idade {
+    font-size: 55px;
+  }
+}
+@media (max-width: 370px) {
+  .Input {
+    width: 80px;
+  }
+  .Idade {
+    font-size: 45px;
+  }
+  .container {
+    border-bottom-right-radius: 100px;
   }
   .barra_vertical {
     width: 40%;
@@ -21,12 +30,10 @@
   .barra_vertical_2 {
     display: block;
   }
-  .Idade {
-    font-size: 55px;
+  .Card_input_data {
+    justify-content: center;
   }
-}
-@media (max-width: 333px) {
-  .Idade {
-    font-size: 50px;
+  .form_card_input_data{
+    justify-content: center;
   }
 }

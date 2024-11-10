@@ -12,7 +12,11 @@ O projeto "Age Calculator App" me ajudou a aprimorar habilidades essenciais em p
 
 ## 💻 Tecnologias Utilizadas
 
-- HTML, CSS e JavaScript
+<div style="display: inline_block"><br>
+  <img align="center" alt="marlene-html" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="marlene-css" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="marlene-javascript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+</div>
 
 ## Demonstração
 
