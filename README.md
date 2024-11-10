@@ -26,7 +26,7 @@ O projeto "Age Calculator App" me ajudou a aprimorar habilidades essenciais em p
 
 ### Versão mobile
 
-<img src="src/Assets/design/mobile-design-2.png">
+<img src="src/Assets/design/mobile-design-2.png" align="center">
 
 ## 🚀 Como Usar
 
