@@ -1,8 +1,8 @@
-# Calculator App
+# Age Calculator
 
 ## 📜Descrição (Português)
 
-O projeto "Age Calculator App" me ajudou a aprimorar habilidades essenciais em programação, especialmente na manipulação de datas e cálculos precisos. Com ele, aprendi a capturar e tratar dados de usuário, além de organizar e apresentar informações de forma clara. Esse desenvolvimento reforçou minha lógica e estruturação de código, preparando-me para desafios mais complexos.
+O projeto "Age Calculator" me ajudou a aprimorar habilidades essenciais em programação, especialmente na manipulação de datas e cálculos precisos. Com ele, aprendi a capturar e tratar dados de usuário, além de organizar e apresentar informações de forma clara. Esse desenvolvimento reforçou minha lógica e estruturação de código, preparando-me para desafios mais complexos. Além disso, o projeto também foi fundamental para o desenvolvimento de habilidades em frontend, permitindo-me aprimorar o design da interface e criar uma experiência de usuário mais intuitiva e agradável.
 
 ## Funcionalidades
 
@@ -39,7 +39,7 @@ O projeto "Age Calculator App" me ajudou a aprimorar habilidades essenciais em p
 
 # English Description
 
-The "Age Calculator App" project helped me enhance essential programming skills, especially in date manipulation and precise calculations. Through it, I learned how to capture and handle user input and organize and present information clearly. This development strengthened my logic and code structuring, preparing me for more complex challenges ahead.
+The "Age Calculator" project helped me enhance essential programming skills, especially in date manipulation and accurate calculations. Through this project, I learned how to capture and handle user data, as well as organize and present information clearly. This development strengthened my coding logic and structure, preparing me for more complex challenges. Additionally, the project was instrumental in developing my frontend skills, allowing me to improve the interface design and create a more intuitive and pleasant user experience.
 
 ## Features
 

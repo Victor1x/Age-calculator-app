@@ -1,8 +1,4 @@
 @media (max-width: 500px) {
-  .container {
-    padding: 10px;
-  }
-
   .Input {
     width: 100px;
     border-radius: 8px;
@@ -14,7 +10,7 @@
     font-size: 55px;
   }
 }
-@media (max-width: 370px) {
+@media (max-width: 400px) {
   .Input {
     width: 80px;
   }
@@ -33,7 +29,10 @@
   .Card_input_data {
     justify-content: center;
   }
-  .form_card_input_data{
+  .Form_card_input_data{
     justify-content: center;
+  }
+  .container {
+    padding: 10px;
   }
 }

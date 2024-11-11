@@ -1,69 +1,48 @@
-function alert_day() {
-  span[0].textContent = "Dia inválida";
-  // span[0].classList.add("active");
-  input_day.classList.add("active");
+const span = document.querySelectorAll(".mensagem_erro");
+
+function cleanAlert() {
+  document.querySelectorAll(".Input").forEach((input, index) => {
+    input.addEventListener("input", () => {
+      span[index].textContent = "";
+      input.classList.remove("active");
+    });
+  });
 }
-
-function remove_alert_day() {
-  span[0].textContent = "";
-  // span[0].classList.remove("active");
-  input_day.classList.remove("active");
-}
-
-function alert_month() {
-  span[1].textContent = "Mês inválida";
-  // span[1].classList.add("active");
-  input_month.classList.add("active");
-}
-
-function remove_alert_month() {
-  span[1].textContent = "";
-  // span[1].classList.remove("active");
-  input_month.classList.remove("active");
-}
-
-function alert_year() {
-  span[2].textContent = "Ano inválida";
-  // span[2].classList.add("active");
-  input_year.classList.add("active");
-}
-
-function remove_alert_year() {
-  span[2].textContent = "";
-  // span[2].classList.remove("active");
-  input_year.classList.remove("active");
-}
-
-function remove_pessoa_do_futuro() {
-  span[3].textContent = "";
-  document.querySelector(".div_sapn_data_do_futuro").style.display = "none";
-  document.querySelector(".mensagem_erro_450px").style.display = "none";
-  span[4].textContent = "";
-}
-
-function verificarLarguraTela() {
-  var larguraTela = window.matchMedia("(min-width: 450px)");
-  if (larguraTela.matches) {
-
-    span[3].textContent = "Vc não é do futuro";
-    document.querySelector(".div_sapn_data_do_futuro").style.display = "block";
-
-    document.querySelector(".mensagem_erro_450px").style.display = "none";
-  } else {
-
-    document.querySelector(".div_sapn_data_do_futuro").style.display = "none";
-    span[4].textContent = "Vc não é do futuro";
-
-    document.querySelector(".mensagem_erro_450px").style.display = "block";
+function validityDay(day) {
+  const max_day = 31;
+  if (day > max_day || day <= 0 || isNaN(day)) {
+    showError(0, "Dia inválida", input_day);
+    return false;
   }
-} 
+  return true;
+}
+function validityMonth(month) {
+  const max_month = 12;
+  if (month > max_month || month <= 0 || isNaN(month)) {
+    showError(1, "Mês inválida", input_month);
+    return false;
+  }
+  return true;
+}
+function validityYear(year) {
+  if (year <= 1920 || year > 9999 || isNaN(year)) {
+    showError(2, "Ano inválida", input_year);
+    return false;
+  }
+  return true;
+}
+function showError(index, mensagem, input) {
+  span[index].textContent = mensagem;
+  input.classList.add("active");
+}
 
 function calcularIdade(dataNascimento) {
   const hoje = new Date();
   const nascimento = new Date(dataNascimento);
 
   if (nascimento > hoje) {
-    verificarLarguraTela()
+    span[2].textContent = "Ano inválida";
+    input_year.classList.add("active");
     return;
   }
 
@@ -73,7 +52,7 @@ function calcularIdade(dataNascimento) {
 
   if (dias < 0) {
     meses--;
-    dias += new Date(hoje.getFullYear(), hoje.getMonth(), 0).getDate(); 
+    dias += new Date(hoje.getFullYear(), hoje.getMonth(), 0).getDate();
   }
 
   if (meses < 0) {
@@ -82,9 +61,8 @@ function calcularIdade(dataNascimento) {
   }
 
   return {
-    anos: anos,
-    meses: meses,
-    dias: dias,
+    anos,
+    meses,
+    dias,
   };
 }
-
