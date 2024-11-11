@@ -25,9 +25,9 @@ O projeto "Age Calculator" me ajudou a aprimorar habilidades essenciais em progr
 <img src="src/Assets/design/desktop-design.jpg">
 
 ### Versão mobile
-
-<img src="src/Assets/design/mobile-design-2.png">
-
+<div align="center">
+<img src="src/Assets/design/mobile-design-2.png" >
+</div>
 ## 🚀 Como Usar
 
 - Clone o repositório: git clone https://github.com/Victor1x/Age-calculator-app.git
